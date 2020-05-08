@@ -14,7 +14,6 @@ body{
     margin: 0 auto;
 }
 
-
 #profileBlock{
     background-color: white;
 }
@@ -25,7 +24,6 @@ body{
     margin: 5px 15px 10px 0px;
     float: left;
 }
-
 
 header{
     overflow: hidden;
@@ -43,8 +41,12 @@ header img{
 
 #contact{
     width: 75%;
-  
     margin:0 auto;
+}
+
+#portfolioCards{
+    width: 80%;
+    margin: 0 auto;
 }
 .footer {
     position: absolute;

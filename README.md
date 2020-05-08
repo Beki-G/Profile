@@ -17,3 +17,7 @@ Contact.html
 
 main.css
     -updated css styling for contact form
+    -update for card styling on Portfolio page
+
+Portfolio.html
+    -initialize portfolio, using repsonsive tables 
