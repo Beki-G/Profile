@@ -73,3 +73,12 @@ header img{
         text-align: center;
     }
 }
+@media screen and (max-width: 960px){
+    .portfolioCards{
+        width: 50%;
+    }
+    .col{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
