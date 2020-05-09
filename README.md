@@ -13,10 +13,10 @@
   - Footer class
   - Added Banner
   - Comment out banner, improve index.html responsiveness
-  - remove background & shadows from "profileBlock"
 
 * Contact
   - created contact form 
+  - add link to conact form so it would be operational
 
 * main.css
   - updated css styling for contact form
