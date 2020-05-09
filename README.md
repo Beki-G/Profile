@@ -11,6 +11,7 @@ Index
     - Add picture & text 
     - Footer class
     - Added Banner
+    - Comment out banner, improve index.html responsiveness
 
 Contact.html
     - created contact form 
