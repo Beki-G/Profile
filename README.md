@@ -1,28 +1,14 @@
-# Homework 2
+# Portfolio
+Developed a portfolio using Bootstrap as the framework. To modify the grid system and other components I used Bootstrap utilities and CSS to make the behavior predictable and responsive.
 
-* Initial
-  - Create index.html, portfolio.html, contact.html, main.css
-  - Link to bootstrap. 
-  - Initialize Nav bar on index
-  - updated CSS link on portfolio & contact pages
-  - Format Readme
+## Deployment
+Live page at: [https://beki-g.github.io/homework_2/index.html] (https://beki-g.github.io/homework_2/index.html)
 
-* Index
-  - Initialize Nave bar
-  - Add picture & text 
-  - Footer class
-  - Added Banner
-  - Comment out banner, improve index.html responsiveness
+## Built with
+* Bootstrap - CSS Framework that was used
 
-* Contact
-  - created contact form 
-  - add link to conact form so it would be operational
+## Author
+Myself, [Beki](https://github.com/Beki-G)
 
-* main.css
-  - updated css styling for contact form
-  - update for card styling on Portfolio page
-
-* Portfolio
-  - initialize portfolio, using repsonsive tables 
-  - Add shadows to cards
-  - Change cards class to "card-columns
+## Acknowlegdements 
+To all my friends and teammates that let me bounce ideas around with them, thanks!
