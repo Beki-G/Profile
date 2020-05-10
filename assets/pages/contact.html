@@ -12,36 +12,63 @@
 </head>
 <body>
     
-    <!--Nav Bar-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <!--Text header-->
+    <header class="headerVertical">
+        <a href="./index.html"><h1>Beki Gonzalez</h1></a>
+    </header>
 
-        <a class="navbar-brand mr-auto" href="../../index.html">Beki Gonzalez</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-cloud-storm">
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target=".dual-collapse2">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto"><!--ml/mr/mx left, right, center-->
-                <li>
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li>
+
+
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-0 order-md-0">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item">
                     <a class="nav-link" href="../../index.html">About</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-
             </ul>
         </div>
+
+
+        <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+            <a class="mx-auto" href="./contact.html">
+                <img src="../img/Contact.png" class="rounded-circle d-none d-lg-block">
+            </a>
+
+        </div>
+
+
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-1">
+            <ul class="navbar-nav mr-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Protfolio</a>
+                </li>
+            </ul>
+        </div>
+
+        <span class="d-lg-none order-2 order-md-2" id="hiddenNavItem">
+            <div class="navbar-collapse collapse w-100 dual-collapse2 ">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </span>
+
     </nav>
 
-    
+    <br/><br/><br/>
+
+    <main>    
+        <!--Contact Form Creation-->
         <section class="resume-section p-4 p-lg-5 text-center" id="contact">
             <div class="my-auto">
-                <h2 class="mb-4"> Contact Me! </h2>
-            
+                <h2 class="mb-4">Contact Me! </h2>            
                 <form class="contact-form d-flex flex-column align-items-center"        action="https://formspree.io/meqrojra" method="POST">
                     <div class="form-group w-100 ">
                         <input type="name" class="form-control" placeholder="Name" name="name" required/>
@@ -59,6 +86,14 @@
             </div>
         </section>
 
+    </main>
+
+    <!--Footer-->
+    <footer class="footer fixed-bottom">
+        <div class="container">
+            <span class="text-muted"> &copy;Beki Gonzalez</span>
+        </div>
+    </footer>
 
 
     <!--JS for Bootstrap-->

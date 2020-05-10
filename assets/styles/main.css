@@ -3,17 +3,25 @@ html {
     min-height: 100%;
 }
 
-header{
-    width: 100%;
-    background-color: #985e6d;
-    color: white;
+.headerVertical{
     height: 12vh;
+    position: relative; 
     text-align: center;
+    width: 100%;
+    background-color: #1a936f;
+    color: white;
 }
 
-a {
+
+header a {
     text-decoration: none;
     color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 a:hover{
     text-emphasis: none;
@@ -22,10 +30,10 @@ a:hover{
 }
 
 .bg-cloud-storm{
-    background-color: #98878f;
+    background-color:  #114b5f;
 }
 body{
-    background-color: #494e6b;
+    background-color: #f3e9d2;
     width: 100%;
     margin-bottom: 60px;
 }
@@ -35,8 +43,9 @@ body{
     margin: 0 auto;
 }
 
-#profileBlock{
-    background-color: #192231;
+#profileBlock,
+#contact{
+    background-color:  #192231;
     color: white;
 }
 
@@ -44,14 +53,11 @@ body{
     width: 200px;
     height: 200px;
     margin: 5px 20px 20px 20px;
-    /* float: left;
-    margin: 0 15px 0 0;  */
 }
 
 #profileBlock p{
     padding: 10px;
 }
-
 
 header img{
     margin-left: 50%;
@@ -67,7 +73,9 @@ header img{
 #portfolioCards{
     width: 80%;
     margin: 0 auto;
+    padding: 5vh;
 }
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -78,14 +86,11 @@ header img{
     color: grey;
 }
 
-@media screen and (max-width: 1024px) {
-    #profileBlock.row {
-        text-align: center;
-    }
+#hiddenNavItem{
+    width: 100%;
+}
 
-    #profileBlock.col {
-        text-align: center;
-    }
+@media screen and (max-width: 1024px) {
     #profileBlock img{
         padding: 15px;
     }
@@ -106,8 +111,4 @@ header img{
     .navbar{
         height:50px;
     }
-    #hiddenNavItem{
-        width: 5px;
-    }
-
 }
